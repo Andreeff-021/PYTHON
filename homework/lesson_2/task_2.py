@@ -4,6 +4,6 @@
 
 num = int(input('Введите число: '))
 a = 1
-for i in range(2, num + 2):
-    print(a, end=' ')
+for i in range(1, num + 1):
     a *= i
+    print(a, end=' ')
